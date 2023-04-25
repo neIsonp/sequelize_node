@@ -1,0 +1,22 @@
+<h1>Add a new User</h1>
+
+<form action="/users/create" method="post" class="form">
+
+    <div class="form-control">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Name:" name="name">
+    </div>
+
+    <div class="form-control">
+        <label for="occupation">occupation:</label>
+        <input type="text" placeholder="Occupation: " name="occupation">
+    </div>
+
+    <div class="form-control form-checkbox">
+        <input type="checkbox" placeholder="newsletter: " name="newsletter" checked>
+        <label for="newsletter">Send promotions</label>
+    </div>
+
+    <input type="submit" value="Register">
+
+</form>
