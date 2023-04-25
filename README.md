@@ -10,7 +10,7 @@ To run this project on your local machine, you need to have node.js installed.
 2. Run `npm install` to install dependencies.
 3. Run `npm start` to start the application.
 
-##Dependencies
+## Dependencies
 This project has the following dependencies:
 
 - Express version 4.18.2
